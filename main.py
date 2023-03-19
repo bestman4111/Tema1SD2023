@@ -237,3 +237,5 @@ for i in range(tests):
             sortName = "Native Sort"
         endTime = time.time()
         print(sortName + ": " + str(endTime - startTime) + "s " + str(testSort(temp)) + "\n")
+
+f.close()
